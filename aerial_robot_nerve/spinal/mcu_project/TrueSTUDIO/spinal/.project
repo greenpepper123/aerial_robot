@@ -72,47 +72,37 @@
 		<nature>org.eclipse.cdt.core.ccnature</nature>
 		<nature>org.eclipse.cdt.managedbuilder.core.managedBuildNature</nature>
 		<nature>com.st.stm32cube.ide.mcu.MCUTSConvertedProjectNature</nature>
+		<nature>com.st.stm32cube.ide.mcu.MCURootProjectNature</nature>
+		<nature>com.st.stm32cube.ide.mcu.MCUCubeIdeServicesRevAev2ProjectNature</nature>
+		<nature>com.st.stm32cube.ide.mcu.MCUNonUnderRootProjectNature</nature>
+		<nature>com.st.stm32cube.ide.mcu.MCUCubeProjectNature</nature>
+		<nature>com.st.stm32cube.ide.mcu.MCUSingleCpuProjectNature</nature>
 	</natures>
 	<linkedResources>
-		<link>
-			<name>Application</name>
-			<type>2</type>
-			<locationURI>virtual:/virtual</locationURI>
-		</link>
 		<link>
 			<name>Drivers</name>
 			<type>2</type>
 			<locationURI>virtual:/virtual</locationURI>
 		</link>
 		<link>
+			<name>spinal.ioc</name>
+			<type>1</type>
+			<locationURI>PARENT-2-PROJECT_LOC/spinal.ioc</locationURI>
+		</link>
+		<link>
 			<name>Application/Hydrus_Lib</name>
 			<type>2</type>
-			<locationURI>PARENT-2-PROJECT_LOC/Hydrus_Lib</locationURI>
+			<location>/home/greenpepper/ros/aerial_ws/src/aerial_robot/aerial_robot_nerve/spinal/mcu_project/Hydrus_Lib</location>
 		</link>
 		<link>
 			<name>Application/Jsk_Lib</name>
 			<type>2</type>
-			<locationURI>PARENT-2-PROJECT_LOC/Jsk_Lib</locationURI>
-		</link>
-		<link>
-			<name>Application/Src</name>
-			<type>2</type>
-			<locationURI>virtual:/virtual</locationURI>
-		</link>
-		<link>
-			<name>Application/TrueSTUDIO</name>
-			<type>2</type>
-			<locationURI>virtual:/virtual</locationURI>
-		</link>
-		<link>
-			<name>Application/User</name>
-			<type>2</type>
-			<locationURI>virtual:/virtual</locationURI>
+			<location>/home/greenpepper/ros/aerial_ws/src/aerial_robot/aerial_robot_nerve/spinal/mcu_project/Jsk_Lib</location>
 		</link>
 		<link>
 			<name>Application/ros_lib</name>
 			<type>2</type>
-			<locationURI>PARENT-2-PROJECT_LOC/ros_lib</locationURI>
+			<location>/home/greenpepper/ros/aerial_ws/src/aerial_robot/aerial_robot_nerve/spinal/mcu_project/ros_lib</location>
 		</link>
 		<link>
 			<name>Drivers/CMSIS</name>
@@ -123,16 +113,6 @@
 			<name>Drivers/STM32F7xx_HAL_Driver</name>
 			<type>2</type>
 			<locationURI>virtual:/virtual</locationURI>
-		</link>
-		<link>
-			<name>Application/TrueSTUDIO/startup_stm32f746xx.s</name>
-			<type>1</type>
-			<locationURI>PARENT-1-PROJECT_LOC/startup_stm32f746xx.s</locationURI>
-		</link>
-		<link>
-			<name>Application/TrueSTUDIO/syscalls.c</name>
-			<type>1</type>
-			<locationURI>PARENT-1-PROJECT_LOC/syscalls.c</locationURI>
 		</link>
 		<link>
 			<name>Application/User/adc.c</name>
@@ -162,7 +142,7 @@
 		<link>
 			<name>Application/User/main.cpp</name>
 			<type>1</type>
-			<locationURI>PARENT-2-PROJECT_LOC/Src/main.cpp</locationURI>
+			<location>/home/greenpepper/ros/aerial_ws/src/aerial_robot/aerial_robot_nerve/spinal/mcu_project/Src/main.cpp</location>
 		</link>
 		<link>
 			<name>Application/User/spi.c</name>
