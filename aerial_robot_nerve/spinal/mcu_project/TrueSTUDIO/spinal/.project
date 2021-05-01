@@ -92,17 +92,22 @@
 		<link>
 			<name>Application/Hydrus_Lib</name>
 			<type>2</type>
-			<location>/home/greenpepper/ros/aerial_ws/src/aerial_robot/aerial_robot_nerve/spinal/mcu_project/Hydrus_Lib</location>
+			<locationURI>PARENT-2-PROJECT_LOC/Hydrus_Lib</locationURI>
 		</link>
 		<link>
 			<name>Application/Jsk_Lib</name>
 			<type>2</type>
-			<location>/home/greenpepper/ros/aerial_ws/src/aerial_robot/aerial_robot_nerve/spinal/mcu_project/Jsk_Lib</location>
+			<locationURI>PARENT-2-PROJECT_LOC/Jsk_Lib</locationURI>
+		</link>
+		<link>
+			<name>Application/Startup</name>
+			<type>2</type>
+			<locationURI>PROJECT_LOC/Application/Startup</locationURI>
 		</link>
 		<link>
 			<name>Application/ros_lib</name>
 			<type>2</type>
-			<location>/home/greenpepper/ros/aerial_ws/src/aerial_robot/aerial_robot_nerve/spinal/mcu_project/ros_lib</location>
+			<locationURI>PARENT-2-PROJECT_LOC/ros_lib</locationURI>
 		</link>
 		<link>
 			<name>Drivers/CMSIS</name>
@@ -142,7 +147,7 @@
 		<link>
 			<name>Application/User/main.cpp</name>
 			<type>1</type>
-			<location>/home/greenpepper/ros/aerial_ws/src/aerial_robot/aerial_robot_nerve/spinal/mcu_project/Src/main.cpp</location>
+			<locationURI>PARENT-2-PROJECT_LOC/Src/main.cpp</locationURI>
 		</link>
 		<link>
 			<name>Application/User/spi.c</name>
@@ -158,6 +163,11 @@
 			<name>Application/User/stm32f7xx_it.c</name>
 			<type>1</type>
 			<locationURI>PARENT-2-PROJECT_LOC/Src/stm32f7xx_it.c</locationURI>
+		</link>
+		<link>
+			<name>Application/User/syscalls.c</name>
+			<type>1</type>
+			<locationURI>PROJECT_LOC/Application/User/syscalls.c</locationURI>
 		</link>
 		<link>
 			<name>Application/User/tim.c</name>
