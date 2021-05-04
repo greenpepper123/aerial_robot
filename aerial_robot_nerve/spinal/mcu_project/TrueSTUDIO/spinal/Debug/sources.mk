@@ -43,7 +43,7 @@ Application/Jsk_Lib/sensors/baro \
 Application/Jsk_Lib/sensors/encoder \
 Application/Jsk_Lib/sensors/gps \
 Application/Jsk_Lib/sensors/imu \
-Application/Startup \
+Application/TrueSTUDIO \
 Application/User \
 Application/ros_lib \
 Drivers/CMSIS \

@@ -100,9 +100,9 @@
 			<locationURI>PARENT-2-PROJECT_LOC/Jsk_Lib</locationURI>
 		</link>
 		<link>
-			<name>Application/Startup</name>
+			<name>Application/TrueSTUDIO</name>
 			<type>2</type>
-			<locationURI>PROJECT_LOC/Application/Startup</locationURI>
+			<locationURI>virtual:/virtual</locationURI>
 		</link>
 		<link>
 			<name>Application/ros_lib</name>
@@ -118,6 +118,16 @@
 			<name>Drivers/STM32F7xx_HAL_Driver</name>
 			<type>2</type>
 			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>Application/TrueSTUDIO/startup_stm32f746xx.s</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/startup_stm32f746xx.s</locationURI>
+		</link>
+		<link>
+			<name>Application/TrueSTUDIO/syscalls.c</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/syscalls.c</locationURI>
 		</link>
 		<link>
 			<name>Application/User/adc.c</name>
@@ -163,11 +173,6 @@
 			<name>Application/User/stm32f7xx_it.c</name>
 			<type>1</type>
 			<locationURI>PARENT-2-PROJECT_LOC/Src/stm32f7xx_it.c</locationURI>
-		</link>
-		<link>
-			<name>Application/User/syscalls.c</name>
-			<type>1</type>
-			<locationURI>PROJECT_LOC/Application/User/syscalls.c</locationURI>
 		</link>
 		<link>
 			<name>Application/User/tim.c</name>
